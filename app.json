@@ -32,8 +32,10 @@
       "description": "Create A Database In Mongodb And Get URL",
       "value": "",
       "required": true
-      
-    },
+    }
+   }
+  }
+ }
     "ARQ_API": {
       "description": "Get this from @ARQRobot",
       "value": "",
