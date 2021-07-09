@@ -62,15 +62,15 @@ async def paste(content):
 async def inline_help_func(__HELP__):
     buttons = InlineKeyboard(row_width=2)
     buttons.add(
-        InlineKeyboardButton("Get More Help.", url=f"t.me/{BOT_USERNAME}?start=start"),
-        InlineKeyboardButton("Go Inline!", switch_inline_query_current_chat=""),
+        InlineKeyboardButton("Obtenga más ayuda.", url=f"t.me/{BOT_USERNAME}?start=start"),
+        InlineKeyboardButton("Ir en línea!", switch_inline_query_current_chat=""),
     )
     answerss = [
         InlineQueryResultArticle(
-            title="Inline Commands",
-            description="Help Related To Inline Usage.",
+            title="Comandos en línea",
+            description="Ayuda relacionada con el uso en línea.",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/109e8fe98acc6d262b7c6.jpg",
+            thumb_url="https://i.imgur.com/N2Ru7ib.jpg",
             reply_markup=buttons,
         )
     ]
@@ -83,25 +83,25 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     # ubot_state = 'Dead' if not await app2.get_me() else 'Alive'
     buttons.add(
-        InlineKeyboardButton("Main Bot", url="https://t.me/DaisyXbot"),
-        InlineKeyboardButton("Go Inline!", switch_inline_query_current_chat=""),
+        InlineKeyboardButton("Bot principal", url="https://t.me/AlphaHunter_Bot"),
+        InlineKeyboardButton("Ir en línea!", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**[DaisyX✨](https://github.com/TeamDaisyX):**
-**MainBot:** `{bot_state}`
+**[AlphaHunter✨](https://github.com/AlphaEliasPY/AlphaHunter):**
+**Bot principal:** `{bot_state}`
 **UserBot:** `Alive`
 **Python:** `3.9`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/daisyxhelper)
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/AlphaHunter_Bot)
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
-            description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/debc179305d2e1f140636.jpg",
+            description="Ver las estadísticas del bot",
+            thumb_url="https://i.imgur.com/N2Ru7ib.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
@@ -171,11 +171,11 @@ async def urban_func(answers, text):
             break
         limit += 1
         msg = f"""
-**Query:** {text}
+**Consulta:** {text}
 
-**Definition:** __{i.definition}__
+**Defindion:** __{i.definition}__
 
-**Example:** __{i.example}__"""
+**Ejemplo:** __{i.example}__"""
 
         answers.append(
             InlineQueryResultArticle(
