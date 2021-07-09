@@ -1,4 +1,4 @@
-# DaisyXBot example config
+# AlphaHunter example config
 
 
 # Basic
@@ -16,7 +16,7 @@ MONGO_URI: "mongodb+srv://dfsdfX:dfsfdX@cluster0.df4j.mongodb.net/myFirstDatabas
 
 MONGO_URI2: ""
 MONGO_PORT: 27017
-MONGO_DB': 'DaisyX'
+MONGO_DB': 'AlphaHunter'
 
 API_PORT': 8080
 
@@ -24,7 +24,7 @@ REDIS_URI: "redis-1324.c234.us-east-1-4.ec4.cloud.redislabs.com"
 REDIS_PORT: 15514
 REDIS_PASS: "sdfgg"
 TEMP_MAIL_KEY: ""
-OWNER_ID: 1141839926
+OWNER_ID: 682039324
 OPERATORS: [1141839926, 00000000]
 SUPPORT_CHAT: -000000000
 SUDO_USERS: ""
