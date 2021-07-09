@@ -13,7 +13,7 @@
   "success_url": "t.me/AndroidCave",
   "buildpacks": [
    {
-     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+     "url": "https://github.com/AlphaEliasPY/AlphaHunter"
    },
    {
      "url": "heroku/python"
