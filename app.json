@@ -8,8 +8,8 @@
     "telegram-HunterAlpha",
     "fuck-TG"
   ],
-  "repository": "https://github.com/AlphaEliasPY/AlphaHunter",
-  "website": "daisyproject.studio",
+  "repository": "https://github.com/AlphaEliasPY/AlphaHunter"
+  "logo": "https://i.imgur.com/N2Ru7ib.jpg",
   "success_url": "t.me/AndroidCave",
   "buildpacks": [
    {
@@ -91,9 +91,9 @@
       "required": true
     },
     "OWNER_ID": {
-      "description": "Your Id",
+      "description": "Not changed",
       "value": "682039324",
-      "required": true
+      "required": false
     },
     "OPERATORS": {
       "description": "Space seperated list of sudoes",
