@@ -15,7 +15,7 @@ The Support group can be reached out to at [Hunter Alpha Support](https://t.me/A
 ### Avaiilable on Telegram as [faltausermane de bot](https://t.me/AndroidCave)
 
 
-# 🏃‍♂️ Easy Deploy 
+# Facil Deploy 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?templatehttps://github.com/AlphaEliasPY/AlphaHunter)
 
 [Generate String Session](https://replit.com/@AlphaEliasPY/AlphaHunter-1)  << Select telethon
@@ -36,5 +36,4 @@ The Support group can be reached out to at [Hunter Alpha Support](https://t.me/A
     [-] REDIS_URI: from redislabs.com (remove port)
     [-] REDIS_PORT: At the end of uri
     [-] REDIS_PASS: pass
-[+] The DaisyX won't run without setting the mandatory vars.
-```
+
