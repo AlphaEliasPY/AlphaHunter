@@ -1,2 +1,2 @@
-DAISYX: python3 -m DaisyX
-ps:scale DAISYX=1
+AlphaHunter: python3 -m AlphaHunter
+ps:scale AlphaHunter=1
