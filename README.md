@@ -32,6 +32,10 @@ The Support group can be reached out to at [Hunter Alpha Support](https://t.me/A
     [-] DATABASE_URL: from elephantsql.com
     [-] OWNER_ID: ur id
     [-] MONGO_PORT: 27017
+    
+## All who helped at a glance 
+
+> This project exists thanks to these awesome developers and their codes and contributions.
     [-] MONGO_DB': 'AlphaHunter'
     [-] REDIS_URI: from redislabs.com (remove port)
     [-] REDIS_PORT: At the end of uri
