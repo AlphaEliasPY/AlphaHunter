@@ -1,22 +1,32 @@
 {
-  "name": "HunterAlpha",
-  "description": "?",
-  "keywords": [
-    "telegram",
-    "Daisy",
-    "plugin",
-    "telegram-HunterAlpha",
-    "fuck-TG"
+   "name": "Alpha Hunter ",
+      "description": "Telegram group management bot.",
+      "keywords": [
+         "telegram",
+         "anime",
+         "group",
+         "manager",
+         "Senku"
+      ],   
+   "repository": "https://github.com/AlphaEliasPY/AlphaHunter",
+   "logo": "https://i.imgur.com/N2Ru7ib.jpg",
+   "addons": [
+    {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
   ],
-  "repository": "https://github.com/AlphaEliasPY/AlphaHunter"
-  "logo": "https://i.imgur.com/N2Ru7ib.jpg",
-  "success_url": "t.me/AndroidCave",
-  "buildpacks": {
-     "url": "https://github.com/AlphaEliasPY/AlphaHunter"
-   },
-   {
-     "url": "heroku/python"
-   }        
+      
+   "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }     
+  ],
   "env": {
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -32,10 +42,8 @@
       "description": "Create A Database In Mongodb And Get URL",
       "value": "",
       "required": true
-    }
-   }
-  }
- }
+      
+    },
     "ARQ_API": {
       "description": "Get this from @ARQRobot",
       "value": "",
@@ -49,7 +57,7 @@
     },
     "MONGO_DB": {
       "description": "Don't change.",
-      "value": "HunterAlpha",
+      "value": "DaisyX",
       "required": false
     },
     "HEROKU_APP_NAME": {
@@ -64,7 +72,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Only for fork users else don't change",
-      "value": "https://github.com/AlphaEliasPY/AlphaHunter",
+      "value": "https://github.com/TeamDaisyX/DaisyX-v2.0",
       "required": false  
     },
     "API_PORT": {
@@ -91,9 +99,9 @@
       "required": true
     },
     "OWNER_ID": {
-      "description": "Not changed",
+      "description": "Not Changed",
       "value": "682039324",
-      "required": false
+      "required": true
     },
     "OPERATORS": {
       "description": "Space seperated list of sudoes",
@@ -192,3 +200,5 @@
     }
   }
 }
+
+ 
